@@ -1,0 +1,33 @@
+{
+  "id": "starfinder-module-for-silvains-game",
+  "title": "Starfinder Module for Silvain's Game",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>These are characters built for Silvain's game of Starfinder 2E, but created using Pathfinder 2e</p>",
+  "authors": [
+    {
+      "name": "Icknickl Lodien",
+      "discord": "Icknickl#2444",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "Characters",
+      "label": "Characters",
+      "path": "packs/Characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ]
+}
